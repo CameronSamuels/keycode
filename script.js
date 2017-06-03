@@ -180,11 +180,8 @@ function k(e) {
 		$('v').innerHTML = '<a href="#">?</a>';
 	}
 	d = true;
-//	$('v').style.fontSize = ((window.innerWidth/window.innerHeight>1?window.innerHeight/window.innerWidth:window.innerWidth/window.innerHeight)*window.innerWidth)+ 'px'
 }
 document.onkeydown = k;
 document.onkeyup = p;
 document.body.oncontextmenu = function(e) { e.preventDefault() };
 document.body.ontouchmove = function(e) { e.preventDefault() };
-//window.onresize = function(){$('v').style.fontSize = ((window.innerWidth/window.innerHeight>1?window.innerHeight/window.innerWidth:window.innerWidth/window.innerHeight)*250)+ 'px'};
-//window.addEventListener("orientationchange", function(){$('v').style.fontSize = ((window.innerWidth/window.innerHeight>1?window.innerHeight/window.innerWidth:window.innerWidth/window.innerHeight)*250)+ 'px'});

@@ -36,7 +36,7 @@ k {
 	border-radius: 3px;
 	display: inline-block;
 }
-@media screen and (orientation: portrait) { v {font-size: 40vh;line-height: 50vh;height: 50vh}}
+@media screen and (orientation: portrait) { v {font-size: 25vh;line-height: 50vh;height: 50vh}}
 @media screen and (orientation: landscape) { v {font-size: 50vh;line-height:50vh;height:50vh}}
 #social {
 	position: fixed;
