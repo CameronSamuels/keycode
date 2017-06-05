@@ -7,4 +7,4 @@ Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) a
 ## About
 Made by [Cameron Samuels](http://cameronsamuels.com) in June 2017 using JavaScript, HTML, and CSS.
 <br />
-I used <a href="http://brackets.io">Adobe Brackets</a> for the code editor, GitHub for the source control, <strike>SourceTree</strike> for the source control, and Chrome on Lenovo & Windows 7.
+I used <a href="http://brackets.io">Adobe Brackets</a> for the code editor, GitHub for the source control, SourceTree for the source control, and Chrome on Lenovo & Windows 7.
