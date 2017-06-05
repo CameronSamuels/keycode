@@ -4,15 +4,15 @@ A JavaScript developer tool for finding keyboard key codes for web applications.
 ## How to use
 Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) and type any key to get the key code value.
 
-In your JavaScript code you can put the following code for basic usage:
+In your JavaScript code you can put the following for basic usage:
 
 ```javascript
 document.onkeydown = function(e) {
   switch (e.keyCode || e.which) {
-    case 8 /* backspace */: alert('backspace');
-    case 13 /* enter */: alert('enter');
-    case 32 /* spacebar */: alert('spacebar');
-    default /* none of the above */: alert('other key');
+    case 8 /* backspace */: alert('backspace'); break;
+    case 13 /* enter */: alert('enter'); break;
+    case 32 /* spacebar */: alert('spacebar'); break;
+    default /* none of the above */: alert('other key'); break;
   }
   alert('Ctrl Key: ' + e.ctrlKey); //e.ctrlKey; e.altKey; e.shiftKey; e.metaKey;
 }
