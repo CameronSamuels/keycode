@@ -183,5 +183,5 @@ function k(e) {
 }
 document.onkeydown = k;
 document.onkeyup = p;
-document.body.oncontextmenu = function(e) { e.preventDefault() };
-document.body.ontouchmove = function(e) { e.preventDefault() };
+document.oncontextmenu = function(e) { e.preventDefault() };
+document.ontouchmove = function(e) { e.preventDefault() };
