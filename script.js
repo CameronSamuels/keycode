@@ -1,4 +1,4 @@
-var chars = {
+var c = {
   3 : "break",
   8 : "backspace",
   9 : "tab",
@@ -157,31 +157,28 @@ var chars = {
   234 : "XF86Back",
   251 : "toggle touchpad",
   255 : "toggle touchpad"
-};
-var $ = function(i) { return document.querySelector(i) }, d = false;
-function p(e) { e.preventDefault();d=false }
+}, $ = function(i) { return document.querySelector(i) }, d=0;
+function p(e) { e.preventDefault();d=0 }
 function k(e) {
 	e.preventDefault();
 	var key = e.keyCode || e.which;
-	if ((key == 16 || key == 17 || key == 18 || key == 91) && d == true) return;
+	if ((key == 16 || key == 17 || key == 18 || key == 91) && d) return;
 	$('v').innerHTML = key;
-	$('m').innerHTML = "<br /><k>" + chars[e.keyCode] + "</k><br />";
-	if (d == true) {
+	$('m').innerHTML = "<br /><k>" + c[e.keyCode] + "</k><br />";
+	if (d) {
 		if (e.shiftKey) $('m').innerHTML += '<k title="e.shiftKey == \'true\'">shift</k>';
 		if (e.ctrlKey) $('m').innerHTML += '<k title="e.ctrlKey == \'true\'">ctrl</k>';
 		if (e.altKey) $('m').innerHTML += '<k title="e.altKey == \'true\'">alt</k>';
 		if (e.metaKey) $('m').innerHTML += '<k title="e.metaKey == \'true\'">meta</k>';
 	}
-	if (key == 0) {
+	if (!key) {
 		if (e.shiftKey) $('m').innerHTML = "<br /><k>shift</k><br />";
 		if (e.ctrlKey) $('m').innerHTML = "<br /><k>ctrl</k><br />";
 		if (e.altKey) $('m').innerHTML = "<br /><k>alt</k><br />";
 		if (e.metaKey) $('m').innerHTML = "<br /><k>meta</k><br />";
 		$('v').innerHTML = '<a href="#">?</a>';
 	}
-	d = true;
+	d = 1;
 }
-document.onkeydown = k;
-document.onkeyup = p;
-document.oncontextmenu = function(e) { e.preventDefault() };
+document.onkeydown = k, document.onkeyup = p, document.oncontextmenu = function(e) { e.preventDefault() },
 document.ontouchmove = function(e) { e.preventDefault() };
