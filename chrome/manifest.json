@@ -1,0 +1,1 @@
+{"manifest_version": 2,"name":"KeyCODE","description":"A JavaScript developer tool for finding keyboard codes for web applications","version":"1.0","icons":{"288":"icon.png"},"browser_action":{"default_popup":"index.html"}}
