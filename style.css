@@ -10,7 +10,11 @@ body, html {
 	-webkit-user-select: none;
 	overflow: hidden;
 }
-v { vertical-align: middle }
+v {
+	vertical-align: middle;
+	line-height: 50vh;
+	height: 50vh
+}
 m {
 	font-size: 5vh;
 	margin: 0 auto;
@@ -24,8 +28,8 @@ k {
 	border: 5px #ccc solid;
 	display: inline-block;
 }
-@media screen and (orientation: portrait) { v {font-size: 25vh;line-height: 50vh;height: 50vh}}
-@media screen and (orientation: landscape) { v {font-size: 50vh;line-height:50vh;height:50vh}}
+@media screen and (orientation: portrait) { v {font-size: 25vh}}
+@media screen and (orientation: landscape) { v {font-size: 50vh}}
 p {
 	position: fixed;
 	bottom: 5px;
