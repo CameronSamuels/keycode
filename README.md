@@ -7,7 +7,7 @@ Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) a
 In your JavaScript code you can put the following for basic usage:
 
 ```javascript
-document.onkeydown = function(e) {
+document.onkeyup = function(e) {
   switch (e.keyCode || e.which) {
     case 8 /* backspace */: alert('backspace'); break;
     case 13 /* enter */: alert('enter'); break;
