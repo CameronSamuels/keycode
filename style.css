@@ -4,16 +4,18 @@ body, html {
 	height: 100%;
 	margin: 0;
 	text-align: center;
-	color: #555 !important;
+	color: #555;
 	background: #EEE;
 	user-select: none;
 	-webkit-user-select: none;
 	overflow: hidden;
 }
+a, a:visited { color: #555 }
 v {
 	vertical-align: middle;
 	line-height: 50vh;
-	height: 50vh
+	height: 50vh;
+	display: block;
 }
 m {
 	font-size: 5vh;
