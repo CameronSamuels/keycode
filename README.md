@@ -18,6 +18,9 @@ document.onkeyup = function(e) {
 }
 ```
 
+## Contributing
+If you want to contribute, you may fork this repo or you can add issues in the issues tab if there is an uknown key or something. I really appreciate it.
+
 ## About
 Made by [Cameron Samuels](http://cameronsamuels.com) in June 2017 using JavaScript, HTML, and CSS.
 <br />
