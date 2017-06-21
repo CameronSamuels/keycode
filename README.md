@@ -17,6 +17,8 @@ document.onkeyup = function(e) {
   alert('Ctrl Key: ' + e.ctrlKey); //e.ctrlKey; e.altKey; e.shiftKey; e.metaKey;
 }
 ```
+## Apps
+I offer a [Chrome app](https://goo.gl/eQfc6p) currently, and soon I will release an Android and iOS app. Other platforms may come.
 
 ## Contributing
 If you want to contribute, you may fork this repo or you can add issues in the issues tab if there is an uknown key or something. I really appreciate it.
