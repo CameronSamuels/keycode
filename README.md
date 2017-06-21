@@ -21,4 +21,4 @@ document.onkeyup = function(e) {
 ## About
 Made by [Cameron Samuels](http://cameronsamuels.com) in June 2017 using JavaScript, HTML, and CSS.
 <br />
-I used <a href="http://brackets.io">Adobe Brackets</a> for the code editor, GitHub & SourceTree for the source control, and Chrome on Lenovo & Windows 7.
+I used <a href="http://brackets.io">Adobe Brackets</a> for the code editor.
