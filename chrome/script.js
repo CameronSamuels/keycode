@@ -68,7 +68,7 @@ var c = {
   90 : "z",
   91 : "meta key",
   92 : "right window key",
-  93 : "windows menu / right meta",
+  93 : "menu / right meta",
   96 : "numpad 0",
   97 : "numpad 1",
   98 : "numpad 2",
@@ -161,14 +161,14 @@ function k(e) {
 	if (d) {
 		if (e.shiftKey) $('m').innerHTML += '<k title="e.shiftKey == \'true\'">shift</k>';
 		if (e.ctrlKey) $('m').innerHTML += '<k title="e.ctrlKey == \'true\'">ctrl</k>';
+        if (e.metaKey) $('m').innerHTML += '<k title="e.metaKey == \'true\'">meta</k>';
 		if (e.altKey) $('m').innerHTML += '<k title="e.altKey == \'true\'">alt</k>';
-		if (e.metaKey) $('m').innerHTML += '<k title="e.metaKey == \'true\'">meta</k>';
 	}
 	if (!key) {
 		if (e.shiftKey) $('m').innerHTML = "<br /><k>shift</k><br />";
 		if (e.ctrlKey) $('m').innerHTML = "<br /><k>ctrl</k><br />";
+        if (e.metaKey) $('m').innerHTML = "<br /><k>meta</k><br />";
 		if (e.altKey) $('m').innerHTML = "<br /><k>alt</k><br />";
-		if (e.metaKey) $('m').innerHTML = "<br /><k>meta</k><br />";
 		$('v').innerHTML = '<a href="#">?</a>';
 	}
 	d = 1;
