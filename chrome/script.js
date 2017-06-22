@@ -154,23 +154,17 @@ var c = {
 function p(e) { e.preventDefault();d=0 }
 function k(e) {
 	e.preventDefault();
-	var key = e.keyCode || e.which;
-	if ((key == 16 || key == 17 || key == 18 || key == 91) && d) return;
-	$('v').innerHTML = key;
-	$('m').innerHTML = "<br /><k>" + c[e.keyCode] + "</k><br />";
+	var l = e.keyCode || e.which;
+	if ((l == 16 || l == 17 || l == 18 || l == 91) && d) return;
+	$('v').innerHTML = l;
+	$('m').innerHTML = "<br /><k>" + c[l] + "</k><br />";
 	if (d) {
 		if (e.shiftKey) $('m').innerHTML += '<k title="e.shiftKey == \'true\'">shift</k>';
 		if (e.ctrlKey) $('m').innerHTML += '<k title="e.ctrlKey == \'true\'">ctrl</k>';
-        if (e.metaKey) $('m').innerHTML += '<k title="e.metaKey == \'true\'">meta</k>';
+    if (e.metaKey) $('m').innerHTML += '<k title="e.metaKey == \'true\'">meta</k>';
 		if (e.altKey) $('m').innerHTML += '<k title="e.altKey == \'true\'">alt</k>';
 	}
-	if (!key) {
-		if (e.shiftKey) $('m').innerHTML = "<br /><k>shift</k><br />";
-		if (e.ctrlKey) $('m').innerHTML = "<br /><k>ctrl</k><br />";
-        if (e.metaKey) $('m').innerHTML = "<br /><k>meta</k><br />";
-		if (e.altKey) $('m').innerHTML = "<br /><k>alt</k><br />";
-		$('v').innerHTML = '<a href="#">?</a>';
-	}
+	if (!k)	$('v').innerHTML = '<a href="#">?</a>';
 	d = 1;
 }
 document.onkeydown = k, document.onkeyup = p, document.oncontextmenu = function(e) { e.preventDefault() };
