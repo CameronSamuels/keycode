@@ -164,7 +164,7 @@ function k(e) {
     if (e.metaKey) $('m').innerHTML += '<k title="e.metaKey == \'true\'">meta</k>';
 		if (e.altKey) $('m').innerHTML += '<k title="e.altKey == \'true\'">alt</k>';
 	}
-	if (!k)	$('v').innerHTML = '<a href="#">?</a>';
+	if (!k) $('v').innerHTML = '<a href="#">?</a>';
 	d = 1;
 }
 document.onkeydown = k, document.onkeyup = p, document.oncontextmenu = function(e) { e.preventDefault() };
