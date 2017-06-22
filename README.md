@@ -1,5 +1,5 @@
 # KeyCODE
-A developer tool for e.keyCode in webpages.
+A developer tool for `e.keyCode` in webpages.
 
 ## How to use
 Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) and type any key to get the key code value.
