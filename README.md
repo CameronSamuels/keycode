@@ -27,3 +27,5 @@ Also you can add issues in the issues tab if there is an uknown key or something
 
 ## About
 Made by [Cameron Samuels](http://cameronsamuels.com) and started in June 2017 using JavaScript, HTML, and CSS.
+
+KeyCODE is licensed under the [MIT License](LICENSE). This means you may do whatever you want with the code, but you must include the license & attribution with the modifications.
