@@ -2,7 +2,7 @@
 A developer tool for `e.keyCode` in webpages. Use this app to find out the `e.keyCode` or `e.which` value to use in your JavaScript code for keyboard events like `onkeydown`, `onkeyup`, and `onkeypress`.
 
 ## How to use
-Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) and type any key to get the key code value.
+Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) and type any key to get the keycode.
 
 In your JavaScript code you can use the following for basic usage:
 
@@ -18,14 +18,14 @@ document.onkeyup = function(e) { //create a listener function for when a key is 
 }
 ```
 ## Apps
-I offer a [Chrome extension](https://goo.gl/eQfc6p) currently for easily checking keycodes without having to search or open a new tab. Soon I will release an Android and iOS app. Other platforms may come, including a Firefox and Opera extension, and possibly a Windows app.
+I offer a [Chrome extension](https://goo.gl/eQfc6p) for easily checking keycodes without having to search or open a new tab. Soon I will work on an Android and iOS app. Other platforms may come, including a Firefox and Opera extension, and possibly a Windows app.
 
 ## Contributing
-If you want to contribute, you may fork this repo.
+If you want to contribute, you may fork this repo, aand submit a pull request (PR).
 
-Also you can add issues in the issues tab if there is an uknown key or something. I will really appreciate it.
+Also, you can add issues in the issues tab if there is an unknown key or bug. I will really appreciate it.
 
 ## About
-Made by [Cameron Samuels](http://cameronsamuels.com) and started in June 2017 using JavaScript, HTML, and CSS.
+Made by [Cameron Samuels](http://cameronsamuels.com) in June 2017 using JavaScript, HTML, and CSS.
 
-KeyCODE is licensed under the [MIT License](LICENSE). This means you may do whatever you want with the code, but you must include the license & attribution with the modifications.
+KeyCODE is licensed under the [MIT License](LICENSE). This means you may do whatever you want with the code, but you must include the license & attribution throughout the modifications.
