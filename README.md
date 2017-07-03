@@ -4,7 +4,7 @@ A developer tool for `e.keyCode` in webpages. Use this app to find out the `e.ke
 ## How to use
 Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) and type any key to get the keycode.
 
-In your JavaScript code you can use the following for basic usage:
+In your JavaScript code, you can use the following for basic usage:
 
 ```javascript
 document.onkeyup = function(e) { //create a listener function for when a key is lifted up
