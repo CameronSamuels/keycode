@@ -1,1 +1,1 @@
-{"manifest_version": 2,"name":"KeyCODE","description":"A developer tool for e.keyCode in webpages","version":"1.1","icons":{"128":"icon.png"},"browser_action":{"default_popup":"index.html","default_icon":"icon.png"}}
+{"manifest_version":2,"name":"KeyCODE","description":"A dev tool for keyCode in js","version":"1.2","icons":{"128":"icon.png"},"browser_action":{"default_popup":"index.html"}}
