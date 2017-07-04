@@ -9,10 +9,10 @@ In your JavaScript code, you can use the following for basic usage:
 ```javascript
 document.onkeyup = function(e) { //create a listener function for when a key is lifted up
   switch (e.keyCode || e.which) { //switch statement for evaluating the keyCode
-    case 8 /* backspace */: alert('backspace'); break; //show backspace if back key was pressed
-    case 13 /* enter */: alert('enter'); break; //show enter if enter key was pressed
-    case 32 /* spacebar */: alert('spacebar'); break; //show spacebar if spacebar key was pressed
-    default /* none of the above */: alert('other key'); break; //show other key if none of the above
+    case 8: alert('backspace'); //show backspace if back key was pressed
+    case 13: alert('enter'); //show enter if enter key was pressed
+    case 32: alert('spacebar'); //show spacebar if spacebar key was pressed
+    default: alert('other key'); //show other key if none of the above
   }
   alert('Ctrl Key: ' + e.ctrlKey); //show if the ctrl key was pressed. Also other modifiers can be e.altKey; e.shiftKey; e.metaKey;
 }
