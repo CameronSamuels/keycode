@@ -21,7 +21,7 @@ document.onkeyup = function(e) { //create a listener function for when a key is 
 I offer a [Chrome extension](https://goo.gl/eQfc6p) for easily checking keycodes without having to search or open a new tab. Soon I will work on an Android and iOS app. Other platforms may come, including a Firefox and Opera extension, and possibly a Windows app. You can also add the page to your homescreen on your mobile device.
 
 ## Contributing
-If you want to contribute, you may fork this repo, aand submit a pull request (PR).
+If you want to contribute, you may fork this repo, and submit a pull request (PR).
 
 Also, you can add issues in the issues tab if there is an unknown key or bug. I will really appreciate it.
 
