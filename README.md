@@ -2,7 +2,7 @@
 A developer tool for `e.keyCode` in webpages. Use this app to find out the `e.keyCode` or `e.which` value to use in your JavaScript code for keyboard events like `onkeydown`, `onkeyup`, and `onkeypress`.
 
 ## How to use
-Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) and type any key to get the keycode.
+Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) and type any key to get the keyCode.
 
 In your JavaScript code, you can use the following for basic usage:
 
@@ -14,11 +14,11 @@ document.onkeyup = function(e) { //create a listener function for when a key is 
     case 32: alert('spacebar'); //show spacebar if spacebar key was pressed
     default: alert('other key'); //show other key if none of the above
   }
-  alert('Ctrl Key: ' + e.ctrlKey); //show if the ctrl key was pressed. Also other modifiers can be e.altKey; e.shiftKey; e.metaKey;
+  alert('Ctrl Key: ' + e.ctrlKey); //show if the ctrl key was pressed. Try other modifiers too
 }
 ```
 ## Apps
-I offer a [Chrome extension](https://goo.gl/eQfc6p) for easily checking keycodes without having to search or open a new tab. Soon I will work on an Android and iOS app. Other platforms may come, including a Firefox and Opera extension, and possibly a Windows app. You can also add the page to your homescreen on your mobile device.
+I offer a [Chrome extension](https://goo.gl/eQfc6p) for easily checking keycodes without having to search or open a new tab. You can also add the page to your homescreen on your device.
 
 ## Contributing
 If you want to contribute, you may fork this repo, and submit a pull request (PR).
