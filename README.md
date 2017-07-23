@@ -5,14 +5,14 @@ Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) a
 
 In your JavaScript code, you can use the following for basic usage:
 ```javascript
-document.onkeyup = function(e) { //create a listener function for when a key is lifted up
-  switch (e.keyCode || e.which) { //switch statement for evaluating the keyCode
-    case 8: alert('backspace'); //show backspace if back key was pressed
-    case 13: alert('enter'); //show enter if enter key was pressed
-    case 32: alert('spacebar'); //show spacebar if spacebar key was pressed
-    default: alert('other key'); //show other key if none of the above
+document.onkeyup = function(e) {
+  switch (e.keyCode || e.which) {
+    case 8: alert('backspace'); //show if back key
+    case 13: alert('enter'); //show if enter key
+    case 32: alert('spacebar'); //show if spacebar
+    default: alert('other key'); //show if none of the above
   }
-  alert('Ctrl Key: ' + e.ctrlKey); //show if the ctrl key was pressed. Try other modifiers too
+  alert('Ctrl Key: ' + e.ctrlKey); //show if the ctrl key
 }
 ```
 # Apps
