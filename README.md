@@ -1,7 +1,7 @@
 # KeyCODE
 A developer tool for `e.keyCode` in webpages. Use this app to find out the `e.keyCode` or `e.which` value to use in your JavaScript code for keyboard events like `onkeydown`, `onkeyup`, and `onkeypress`.
-# How to use
-Open up [http://cameronsamuels.com/keycode](http://cameronsamuels.com/keycode) and type any key to get the keyCode.
+## How to use
+Open up <https://cameronsamuels.com/keycode> and type any key to get the keyCode.
 
 In your JavaScript code, you can use the following for basic usage:
 ```javascript
@@ -15,11 +15,7 @@ document.onkeyup = function(e) {
   alert('Ctrl Key: ' + e.ctrlKey); //show if the ctrl key
 }
 ```
-# Apps
-I offer a [Chrome extension](https://goo.gl/eQfc6p) for easily checking keycodes without having to search or open a new tab. You can also add the page to your homescreen on your device.
-# Contributing
-If you want to contribute, you may fork this repo, and submit a PR (pull request). Also, you can add issues in the issues tab if there is an unknown key or bug. I will really appreciate it.
-# About
-Made by [Cameron Samuels](http://cameronsamuels.com) in June 2017 using JavaScript, HTML, and CSS.
-### License
+## Contributing
+If you want to contribute, you may fork this repo, and submit a pull request. Also, you can add issues in the issues tab if there is an unknown key or bug. I will really appreciate it.
+## License
 KeyCODE is licensed under the [Cameron Samuels License](LICENSE).
